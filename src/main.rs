@@ -39,7 +39,7 @@ fn main() {
     // if date_string != "" {
     //     println!("{}",date_string)
     // }
-    if args.len() < 1 {
+    if args.len() < 2 {
         eprintln!("Error: Expected date argument");
         exit(1)
     }
